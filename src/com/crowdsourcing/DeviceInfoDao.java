@@ -23,7 +23,7 @@ public class DeviceInfoDao {
 		try {
 
 			data = new ArrayList<Device>();
-			mongoClient = new MongoClient("130.245.144.191", 27017);
+			mongoClient = new MongoClient("XXX.XXX.XXX.XXX", 27017);
 
 			db = mongoClient.getDB("SpecsenseDB");
 			System.out.println("Connect to database successfully");
