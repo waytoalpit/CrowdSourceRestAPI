@@ -28,7 +28,7 @@ public class DeviceInfoDao {
 			db = mongoClient.getDB("SpecsenseDB");
 			System.out.println("Connect to database successfully");
 
-			boolean auth = db.authenticate("wings", "trinitron".toCharArray());
+			boolean auth = db.authenticate("XXXXX", "XXXXX".toCharArray());
 			System.out.println("Authentication: " + auth);
 
 			DBCollection coll = db.getCollection("UE_Measurements");
